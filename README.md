@@ -150,6 +150,7 @@ databricks-spark-learning-cookbook/
 
 Learning Roadmap
 Phase	Topic	Notebooks
+```
 Phase 0	Spark Orientation	Notebook 0
 Phase 1	PySpark DataFrame Basics	Notebooks 1-3
 Phase 2	Transformations, Actions, and Lazy Evaluation	Notebook 4
@@ -160,6 +161,8 @@ Phase 6	Delta Lake and Tables	Notebook 12
 Phase 7	ETL and Data Quality	Notebooks 13-14
 Phase 8	Performance Fundamentals	Notebooks 15-17
 Phase 9	Practical Analytics Projects	Notebooks 18-20
+```
+
 Featured Projects
 Retail Sales Analytics Mini-Project
 
