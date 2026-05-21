@@ -176,7 +176,6 @@ Store summary
 Category summary
 Customer summary
 High-value transaction report
-Healthcare Outcomes Mini-Project
 ```
 ## Practices Spark on a healthcare-flavored orthopedic outcomes dataset.
 
@@ -188,7 +187,6 @@ Average outcome by implant type
 Complication rates by age bucket
 Window functions for latest follow-up
 Patient-level modeling table preparation
-Public Sector / DHS-Style Inspection Analytics Mini-Project
 ```
 ## Simulates a public sector inspection analytics modernization scenario.
 
