@@ -130,20 +130,8 @@ databricks-spark-learning-cookbook/
 │       ├── 19-healthcare-outcomes-analytics.ipynb
 │       └── 20-public-sector-inspection-analytics.ipynb
 │
-├── datasets/
-│   ├── README.md
-│   └── sample-data-notes.md
-│
-├── sql/
-│   ├── dashboard-views/
-│   └── validation-queries/
-│
-├── images/
-│   ├── architecture-diagrams/
-│   └── notebook-screenshots/
 │
 └── docs/
-    ├── concepts/
     ├── glossary.md
     └── spark-cheatsheet.md
 ```
