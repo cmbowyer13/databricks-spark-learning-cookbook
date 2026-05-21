@@ -1,0 +1,114 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Databricks / notebook exports
+*.dbc
+*.html
+*.run
+*.scala~
+*.py~
+*.sql~
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+_SUCCESS
+_committed_*
+_started_*
+
+# Delta Lake local files
+_delta_log/
+*.parquet.crc
+
+# Local data outputs
+data/raw/
+data/processed/
+data/tmp/
+outputs/
+tmp/
+temp/
+
+# Logs
+*.log
+logs/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Coverage / testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Secrets and credentials
+*.pem
+*.key
+*.crt
+credentials.json
+token.json
+secrets.json
+.envrc
+
+# Databricks CLI / bundle local state
+.databricks/
+.databricks-connect
+bundle.tf.json
+.terraform/
+.terraform.lock.hcl
+
+# MLflow local tracking
+mlruns/
+mlartifacts/
+
+# Large local datasets
+*.csv
+*.json
+*.jsonl
+*.xlsx
+*.xls
+*.zip
+*.tar
+*.tar.gz
+
+# Keep sample documentation files
+!datasets/README.md
+!datasets/sample-data-notes.md
