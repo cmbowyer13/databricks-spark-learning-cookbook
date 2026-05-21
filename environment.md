@@ -4,6 +4,17 @@ This repository is designed primarily for **Databricks Free Edition**.
 
 The notebooks are intentionally written to be simple to run in a browser-based Databricks workspace without requiring local Spark installation.
 
+# Environment Philosophy
+
+## This repo is meant to be:
+```
+- Beginner-friendly
+- Lightweight
+- Databricks Free Edition compatible
+- Mostly self-contained
+- Portfolio-ready
+- Easy to extend
+```
 ---
 
 ## Recommended Environment
