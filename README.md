@@ -163,13 +163,13 @@ Phase 8	Performance Fundamentals	Notebooks 15-17
 Phase 9	Practical Analytics Projects	Notebooks 18-20
 ```
 
-Featured Projects
-Retail Sales Analytics Mini-Project
+# Featured Projects
+## Retail Sales Analytics Mini-Project
 
 Builds a small lakehouse-style analytics workflow using synthetic retail transaction data.
 
 Outputs include:
-
+```
 Raw transactions
 Clean transactions
 Store summary
@@ -177,11 +177,11 @@ Category summary
 Customer summary
 High-value transaction report
 Healthcare Outcomes Mini-Project
-
-Practices Spark on a healthcare-flavored orthopedic outcomes dataset.
+```
+## Practices Spark on a healthcare-flavored orthopedic outcomes dataset.
 
 Skills demonstrated:
-
+```
 Patient, procedure, and follow-up joins
 Filtering patients with follow-up
 Average outcome by implant type
@@ -189,24 +189,21 @@ Complication rates by age bucket
 Window functions for latest follow-up
 Patient-level modeling table preparation
 Public Sector / DHS-Style Inspection Analytics Mini-Project
-
-Simulates a public sector inspection analytics modernization scenario.
+```
+## Simulates a public sector inspection analytics modernization scenario.
 
 Skills demonstrated:
-
+```
 Shipment, inspection, and port joins
 Data quality checks for missing inspection records
 Anti joins for unmatched records
 Violation aggregation
 Window functions for top inspection categories
 Executive dashboard-ready SQL views
-
-This project is especially useful for Databricks Solution Architect or Resident Solution Architect interview preparation because it connects Spark mechanics to customer-facing business outcomes.
-
-Skills Demonstrated
+```
 
 This repository demonstrates practical ability with:
-
+```
 PySpark DataFrame API
 Spark SQL
 SparkSession basics
@@ -230,9 +227,10 @@ Caching and persistence
 Query plan inspection with explain()
 Translating raw data into business-ready outputs
 Portfolio Notes
+```
 
 This repository demonstrates my ability to:
-
+```
 Learn and document technical concepts clearly
 Build end-to-end analytics workflows in Spark
 Transform raw data into trusted analytical outputs
@@ -242,20 +240,24 @@ Use Spark SQL and PySpark together
 Think carefully about table grain before joining data
 Explain performance concepts such as partitions, shuffles, caching, and query plans
 Connect technical implementation to business outcomes
-How to Use This Repository
-Option 1: Run Notebooks in Databricks Free Edition
+```
+
+# How to Use This Repository
+## Option 1: Run Notebooks in Databricks Free Edition
+```
 Sign up for Databricks Free Edition.
 Clone or download this repository.
 Open your Databricks workspace.
 Import a notebook from the notebooks/ folder.
 Run the notebook cells from top to bottom.
 Modify the exercises to test your understanding.
-Option 2: Use the Repo as a Learning Guide
+```
 
+## Option 2: Use the Repo as a Learning Guide
 You can also read the notebooks directly on GitHub and use them as a study guide.
 
 Each notebook is designed to include:
-
+```
 Plain-English explanations
 Commented PySpark code
 Small synthetic datasets
@@ -263,8 +265,8 @@ Practice exercises
 Mini-project reflection sections
 Common mistakes
 Key takeaways
-
-Recommended Study Order
+```
+# Recommended Study Order
 
 Start from the beginning and move sequentially:
 
@@ -281,10 +283,9 @@ Then performance fundamentals:
 Then practical projects:
 
 18 → 19 → 20
-Suggested Learning Workflow
 
 For each notebook:
-
+```
 Read the markdown explanations.
 Run each code cell.
 Inspect the output.
@@ -293,52 +294,55 @@ Re-run the cell.
 Complete the exercises.
 Write your own notes in markdown.
 Commit your updated notebook to GitHub.
+```
 
 The best way to learn Spark is not just to read the code, but to change it and observe what happens.
 
-Notes on Synthetic Data
+# Notes on Synthetic Data
 
 The datasets in these notebooks are synthetic and simplified.
 
 They are designed for learning Spark concepts, not for making real business, healthcare, or public sector decisions.
 
-Future Improvements
+# Future Improvements
 
 Planned additions may include:
+```
+- Intermediate Spark performance examples
+- More Delta Lake examples
+- Structured Streaming intro notebooks
+- ML feature engineering in Spark
+- MLflow basics
+- Databricks Workflows examples
+- Unity Catalog concepts
+- Dashboard screenshots
+- Architecture diagrams
+- More public sector, healthcare, and retail analytics projects
+- Repo Status
+```
+## This repository is a work in progress.
 
-Intermediate Spark performance examples
-More Delta Lake examples
-Structured Streaming intro notebooks
-ML feature engineering in Spark
-MLflow basics
-Databricks Workflows examples
-Unity Catalog concepts
-Dashboard screenshots
-Architecture diagrams
-More public sector, healthcare, and retail analytics projects
-Repo Status
-
-This repository is a work in progress.
-
-Current focus:
-
+## Current focus:
+```
 Spark fundamentals
 PySpark DataFrame practice
 Databricks notebook workflows
 Practical analytics mini-projects
-
-Future focus:
-
+```
+## Future focus:
+```
 Intermediate Spark performance
 ML feature preparation
 MLflow
 Lakehouse architecture patterns
 Databricks Solution Architect-style demos
-License
+```
+
+# License
 
 This repository uses the MIT License. See LICENSE for details.
 
-Acknowledgments
+# Acknowledgments
 
 This project is built around Apache Spark, PySpark, Delta Lake, and Databricks notebook workflows.
 
