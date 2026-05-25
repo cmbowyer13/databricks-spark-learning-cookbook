@@ -1,4 +1,4 @@
-# Databricks Spark Learning Cookbook 
+# Databricks Spark Learning Cookbook (...Under Active Construction)
 
 A hands-on PySpark and Databricks learning path covering Spark fundamentals, DataFrames, Spark SQL, Delta Lake, ETL patterns, data quality, performance basics, and practical analytics mini-projects.
 
